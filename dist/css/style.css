@@ -1,0 +1,94 @@
+body {
+	background-color: #343a40;
+}
+iframe {
+	border-width: 0px;
+}
+div.center-class {
+	margin: 0 auto;
+	text-align: center;
+}
+a.link-dancelia {
+    text-decoration: none;
+    color: #9A9DA0;
+}
+a.link-dancelia:hover {
+    text-decoration: none;
+    color: #CCCEC6;
+}
+.container.container-rounded {
+	margin-top: 20px;
+	box-shadow: 0 0 8px rgba(1, 1, 1, 0.7);
+}
+.container-fluid-youtube {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.youtube-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.text-muted.margin {
+	margin-top: 25px;
+}
+.container.margin {
+	margin-top: 25px;
+	height: 95%;
+}
+.img-fluid.margin{
+	margin-top: -20px;
+}
+.form-control {
+  border-color: #9A9DA0;
+  color: #CCCEC6;
+}
+.form-control:focus {
+  border-color: #CCCEC6;
+  color: #CCCEC6;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(204, 206, 198, 0.6);
+}
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #343a40;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+	box-shadow: 0 0 8px rgba(1, 1, 1, 0.7);
+}
+#return-to-top i {
+    color: #6c757d;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: #343a40;
+}
+#return-to-top:hover i {
+    color: #9A9DA0;
+    top: 8px;
+}
